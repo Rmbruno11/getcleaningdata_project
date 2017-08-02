@@ -25,7 +25,7 @@ This file contains 5 functions:
         
         
  ## TEST
- # For testing update de work directory value (variable wd in function run_analysis), source the run_analysis.R file and 
+ For testing update de work directory value (variable wd in function run_analysis), source the run_analysis.R file and 
         run the function run_analysis().
 
 The script prints some info about the datasets created. Also you can see the main dataset using:
@@ -36,7 +36,7 @@ or the secondary using:
 > data_tidy <- create_tidy_dataset()
 
 
-## MAIN DATASET COLS:
+MAIN DATASET COLS:
 
 "subject": id subject using the smartphone in study
 "activitylabel": class from activity

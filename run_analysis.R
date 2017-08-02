@@ -119,6 +119,7 @@ create_tidy_dataset <- function(data_comp=NULL){
         aux <- melt(dc, id=c("Subject","activitylabel"))
         tidy <- dcast(aux, Subject+activitylabel ~ variable, mean)
         write.csv(tidy, "tidy.csv", row.names=FALSE)
+        write.table(tidy, "tidy.txt", row.names=FALSE)
         tidy
         
 }
